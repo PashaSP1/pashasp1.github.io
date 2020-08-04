@@ -2652,7 +2652,7 @@ span.color-red {
 }
 .btn:hover {
   background: none repeat scroll 0 0 #ff9900;
-  color: #FFF;
+  color: #FFFFFF;
   text-decoration: none;
   border: 1px solid #ff9900;
 }
@@ -2669,10 +2669,10 @@ span.color-red {
   background: none repeat scroll 0 0 #E7E7E7;
 }
 .btn-grey:hover {
-  background: none repeat scroll 0 0 #cecece;
+  background: none repeat scroll 0 0 #ff9900;
   color: #333;
   text-decoration: none;
-  border: 1px solid #cecece;
+  border: 1px solid #ff9900;
 }
 .btn-grey .caret {
   border-top: 4px solid #333;
@@ -2683,10 +2683,10 @@ span.color-red {
   background: none repeat scroll 0 0 #4F8DB3;
 }
 .btn-blue:hover {
-  background: none repeat scroll 0 0 #3b3c41;
+  background: none repeat scroll 0 0 #ff9900;
   color: #FFF;
   text-decoration: none;
-  border: 1px solid #3b3c41;
+  border: 1px solid #ff9900;
 }
 .btn-orange {
   border: 1px solid #cc5a00;
@@ -2694,10 +2694,10 @@ span.color-red {
   background: none repeat scroll 0 0 #FF7000;
 }
 .btn-orange:hover {
-  background: none repeat scroll 0 0 #3b3c41;
+  background: none repeat scroll 0 0 #ff9900;
   color: #FFF;
   text-decoration: none;
-  border: 1px solid #3b3c41;
+  border: 1px solid #ff9900;
 }
 .btn-green {
   border: 1px solid #4c5818;
