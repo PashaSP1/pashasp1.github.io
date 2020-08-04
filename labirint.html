@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>С ДНЕМ РОЖДЕНИЯ!!!</title>
+        <meta name="description" content="">
+		<link rel="stylesheet" href="css/main-orange.css">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/icomoon-social.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/leaflet.css" />
+		<!--[if lte IE 8]>
+		    <link rel="stylesheet" href="css/leaflet.ie.css" />
+		<![endif]-->
+		
+
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
+		<style>
+		.post-more{
+			text-align: center;
+			vertical-align: middle;
+		}
+		.post-more{
+			text-align: center;
+			vertical-align: middle;
+		}
+		</style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+
+        <!-- Navigation & Logo-->
+        <div class="mainmenu-wrapper">
+	        <div class="container">
+		        <nav id="mainmenu" class="mainmenu">
+					<ul>
+						<li class="logo-wrapper"><a href="index.html"><img src="img/mPurpose-logo.png" alt="Multipurpose Twitter Bootstrap Template"></a></li>
+						<li class="active">
+							<a href="index.html">Главная</a>
+						</li>
+						<li>
+						<li class="has-submenu">
+							<a>Задания</a>
+							<div class="mainmenu-submenu">
+								<div class="mainmenu-submenu-inner"> 
+									<div>
+										<a href="zagadka1.html"><h4>Задание 1 (Что это за буквы?)</h4></a>
+										<a href="labirint.html"><h4>Задание 2 (Лабиринт тяжелых выборов)</h4></a>
+										<a href="serdechki.html"><h4>Задание 3 (Сколько же сердечек?)</h4></a>
+									</div>
+								</div><!-- /mainmenu-submenu-inner -->
+							</div><!-- /mainmenu-submenu -->
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+        <!-- Page Title -->
+		<div class="section section-breadcrumbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Задание 2 (Лабиринт)</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "labirint">		
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container" >
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+							<div class="blog-post">
+								<img src="img/labirint.jpg" class="post-image" alt="Post Title">
+								<div class="post-title">
+									<h3>Помощник :3</h3>
+								</div>
+								<div class="post-summary">
+									<p>Хихи, как я понял ты уже прошла первую загадку, молодец :3 Теперь начался более сложный, но в то же время, интересный уровень :3 Тут тебе прийдется пройти лабиринт и под конец найти разгадку второй загадки :3 Удачкииии :3</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="blog-post">
+								<img src="img/left.jpg" class="post-image" alt="Post Title">
+								<div class="post-title">
+									<h3>Пойти влево</h3>
+								</div>
+								<div class="post-summary">
+									<p>Влево пойдешь, дураком станешь :3 Как в сказках говорят :3</p>
+								</div>
+								<a onclick = "perehod('labirint', 'tortik');" class="btn btn-small">Пойти</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="blog-post">
+								<img src="img/up.jpg" class="post-image" alt="Post Title">
+								<div class="post-title">
+									<h3>Пойти вперед</h3>
+								</div>
+								<div class="post-summary">
+									<p>Пойдешь вперед на ужас нагрядешь , на несчастье и прочее :3</p>
+								</div>
+								<a onclick = "perehod('labirint', 'pescheri');" class="btn btn-small">Пойти</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="blog-post">
+								<img src="img/right.jpg" class="post-image" alt="Post Title">
+								<div class="post-title">
+									<h3>Пойти направо</h3>
+								</div>
+								<div class="post-summary">
+									<p>Направо пойдешь на дракона страшного наткнешься :3 Победить его будет не так просто :3</p>
+								</div>
+								<a onclick = "perehod('labirint', 'dragon');" class="btn btn-small">Пойти</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->
+		</div>
+		<div id = "tortik" style = "display: none;">
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+							<div class="blog-post">
+								<img src="img/tortik.jpg" class="post-image" alt="dragon">
+								<div class="post-title">
+									<h3>Тупик :3</h3>
+								</div>
+								<div class="post-summary">
+									<p>Тут тупик моя дрогая :3 Хоть дураком никто не станет, но что бы ты не грустила, я оставил тут тортик :3 Покушай его и возвращайся к поиску выхода :3</p>
+								</div>
+								<a onclick = "perehod('tortik', 'labirint');" class="btn btn-small">Вернуться</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->
+		</div>
+		<div id = "konec_labirinta" style = "display: none;">
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+							<div class="blog-post">
+								<img src="img/vspomnic.jpg" class="post-image" alt="dragon">
+								<div class="post-title">
+									<h3>А ты помнишь?</h3>
+								</div>
+								<div class="post-summary">
+									<p>Оу, тут у нас, загадка на память, как так :3 Тут надо ввести слово, которое было зашифровано в первом задании :3</p>
+								</div>
+								<input type="text" id="pole">
+								<a onclick = "check2('pole', 'kluch2');" class="btn btn-small">Проверить</a>
+								<a id = "kluch2" href = "kluch123911211.html" class="btn btn-small" style = "display: none;">Узнать тайну :3</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->
+		</div>
+		<div id = "babushka" style = "display: none;">
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container" >
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+							<div class="blog-post">
+								<img src="img/babusya.jpg" class="post-image" alt="Post Title">
+								<div class="post-title">
+									<h3>Ты попала к бабусе :3</h3>
+								</div>
+								<div class="post-summary">
+									<p>Потянуло на пирожки :3 Ну что же, ты заблудилась :3 Зе енд, игра окончена :3 ШУТКА! :3 Тебе тут встретилась бабушка которая с радостью выведет тебя из пещеры :3 Но вот незадача, она потеряла свои пирожки, ну что, придется искать, а иначе не пройдешь дальше :3</p>
+								</div>
+								<div class="post-summary">
+									<p id = "schet" style = "font-size: 150%;">Всего собрано 0 из 5 пиражков</p>
+								</div>
+								<a id = "back" class="btn btn-small" style = "display: none;" onclick = "perehod('babushka', 'konec_labirinta');">Пройти дальше</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img onclick="check('pir');" src="img/pirozok3.png" class="pirozok" id = "pir" alt="Пиражок">
+			<img onclick="check('pir2');" src="img/pirozok.png" class="pirozok" id = "pir2" alt="Пиражок">
+			<img onclick="check('pir3');" src="img/pirozok2.png" class="pirozok" id = "pir3" alt="Пиражок">
+			<img onclick="check('pir4');" src="img/pirozok4.png" class="pirozok" id = "pir4" alt="Пиражок">
+			<img onclick="check('pir5');" src="img/pirozok2.png" class="pirozok" id = "pir5" alt="Пиражок">
+		</div>
+		<div id = "dragon" style = "display: none;">
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+							<div class="blog-post">
+								<img src="img/dragon.jpg" class="post-image" alt="dragon">
+								<div class="post-title">
+									<h3>Ты попала на дракона :3</h3>
+								</div>
+								<div class="post-summary">
+									<p>Ну что же, дорогая :3 Ты попала на страшного дракона, но сегодня он добрый, и не будет тебя кушать :3 Он просто порадуется, подарит тебе цьом и отпустит дальше разведовать просторы либиринта :3</p>
+								</div>
+								<a onclick = "perehod('dragon', 'labirint');"  class="btn btn-small">Вернуться</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->
+		</div>
+		<div id = "pescheri" style = "display: none;">
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container" >
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+							<div class="blog-post">
+								<img src="img/pescheri.jpg" class="post-image" alt="Post Title">
+								<div class="post-title">
+									<h3>Три пещеры</h3>
+								</div>
+								<div class="post-summary">
+									<p id = "pescheri_text">Ты выбрала пойти вперед, это правильный выбор :3 Тут нет несчастья и чего то еще, но за то есть 3 пещеры, в какую из них идти, решать тебе :3</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="blog-post">
+								<img src="img/skala1.jpg" class="post-image" alt="первая скала">
+								<div class="post-title">
+									<h3>Первая пещера</h3>
+								</div>
+								<div class="post-summary">
+									<p id = "peschera1">Пищера ничем не пахнет должно быть там безопасно :3</p>
+								</div>
+								<a onclick = "perehod('pescheri', 'propost');" class="btn btn-small" id = "knopka_v_peschru1">Пойти</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="blog-post">
+								<a href="page-blog-post-right-sidebar.html"><img src="img/skala2.jpg" class="post-image" alt="вторая скала"></a>
+								<div class="post-title">
+									<h3>Вторая пещера</h3>
+								</div>
+								<div class="post-summary">
+									<p>А эта пещера с запахом пирожков, что вполне необычно :3</p>
+								</div>
+								<a onclick = "perehod('pescheri', 'babushka');" class="btn btn-small">Пойти</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="blog-post">
+								<a href="page-blog-post-right-sidebar.html"><img src="img/skala3.jpg" class="post-image" alt="третья скала"></a>
+								<div class="post-title">
+									<h3>Третья пещера</h3>
+								</div>
+								<div class="post-summary">
+									<p id = "peschera3">Из этой пещеры веет чем то неизвестным, может нам стоит пойти сюда :3</p>
+								</div>
+								<a onclick = "perehod('pescheri', 'sama');" class="btn btn-small" id = "knopka_v_peschru3">Пойти</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->
+		</div>
+		<div id = "propost" style = "display: none;">
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container" >
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+							<div class="blog-post">
+								<img src="img/propost.jpg" class="post-image" alt="пропость">
+								<div class="post-title">
+									<h3>Пропость!</h3>
+								</div>
+								<div class="post-summary">
+									<p>Ууууу... В пещере оказалась пропость, как так то :3 Ладно шучу я ее сюда поставил :3</p>
+								</div>
+								<a onclick = "perehod('propost', 'propost2');" class="btn btn-small">Упасть</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->	
+		</div>
+		<div id = "propost2" style = "display: none;">
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container" >
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+						<a class="btn btn-small" onclick = "propost()" id = "knopka2" style = "display: none;">Продолжить падать</a>
+							<div class="blog-post">
+								<img src="img/propost2.jpg" class="post-image" alt="пропость">
+								<div class="post-title">
+									<h3>Продолжаем падать</h3>
+								</div>
+								<div class="post-summary">
+									<p id = "padaem">Падаем :3</p>
+								</div>
+								<a class="btn btn-small" onclick = "propost()" id = "knopka1">Продолжить падать</a>
+								<a class="btn btn-small" onclick = "perehod('propost2','pescheri');" id = "knopka3" style = "display: none;">Упасть</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->	
+			<img onclick="propost();" src="img/mishka.png" class="pirozok" id = "miska1" alt="Мышка" style = "display: none;">
+			<img onclick="propost();" src="img/mishka.png" class="pirozok" id = "miska2" alt="Мышка" style = "display: none;">
+			<img onclick="propost();" src="img/mishka.png" class="pirozok" id = "miska3" alt="Мышка" style = "display: none;">
+			<img onclick="propost();" src="img/mishka.png" class="pirozok" id = "miska4" alt="Мышка" style = "display: none;">
+			<img onclick="propost();" src="img/mishka.png" class="pirozok" id = "miska5" alt="Мышка" style = "display: none;">
+		</div>
+		<div id = "sama" style = "display: none;">
+			<!-- Posts List -->
+			<div class="section blog-posts-wrapper" align = "center">
+				<div class="container" >
+					<div class="row">
+						<div class="col-md-4 col-sm-6" style = "width: 100%;">
+							<div class="blog-post">
+								<div>
+									<img src="img/black.jpg" class="post-image" id = "black_ekran" alt="чернота" style = "position: absolute;">
+									<img class="post-image" id = "mesnost" alt="пропость" style = "display: none; position: absolute;">
+									<img class="post-image" id = "zdanie" alt="пропость" style = "display: none; position: absolute;">
+									<img class="post-image" id = "zivotnie" alt="пропость" style = "display: none; position: absolute;">
+									<img src="img/black.jpg" class="post-image" alt="пропость" style = "visibility: collapse;">
+								</div>
+								<div class="post-title">
+									<h3>Воля фантазий :3</h3>
+								</div>
+								<div class="post-summary">
+									<p id = "sama_text">Ну, а тут, малышка моя, яяяяяя... Ничего не придумал, поэтому доверяю придумать все тебе :3 Так что выбирай что добавляем :3 Для начала выберем местность</p>
+								</div>
+								<div id = "mest">
+									<a class="btn btn-small" onclick = "zamena('mesnost', 'img/holmi.jpg', 'mest', 'zdaniya', 'Холмы');">Выбрать холмы</a>
+									</br>
+									</br>
+									<a class="btn btn-small" onclick = "zamena('mesnost', 'img/pole.jpg', 'mest', 'zdaniya', 'Поляна');">Выбрать поляну</a>
+									</br>
+									</br>
+									<a class="btn btn-small" onclick = "zamena('mesnost', 'img/pustinya.jpg', 'mest', 'zdaniya', 'Пустыня');">Выбрать пустыню</a>
+								</div>
+								
+								<div id = "zdaniya" style = "display: none;">
+									<a class="btn btn-small" onclick = "zamena('zdanie', 'img/zamok.png', 'zdaniya', 'zivotnoe', 'замком');">Выбрать замок</a>
+									</br>
+									</br>
+									<a class="btn btn-small" onclick = "zamena('zdanie', 'img/domik.png', 'zdaniya', 'zivotnoe', 'домиком');">Выбрать домик</a>
+									</br>
+									</br>
+									<a class="btn btn-small" onclick = "zamena('zdanie', 'img/izbushka.png', 'zdaniya', 'zivotnoe', 'избушкой');">Выбрать избушку</a>
+								</div>
+								
+								<div id = "zivotnoe" style = "display: none;">
+									<a class="btn btn-small" onclick = "zamena('zivotnie', 'img/sobaka.png', 'zivotnoe', 'konec', 'собакой');">Выбрать собаку</a>
+									</br>
+									</br>
+									<a class="btn btn-small" onclick = "zamena('zivotnie', 'img/verblud.png', 'zivotnoe', 'konec', 'верблюдом');">Выбрать верблюда</a>
+									</br>
+									</br>
+									<a class="btn btn-small" onclick = "zamena('zivotnie', 'img/coshka.png', 'zivotnoe', 'konec', 'кошкой');">Выбрать кошку</a>
+								</div>
+								<div id = "konec" style = "display: none;">
+									<a class="btn btn-small" onclick = "perehod('sama','pescheri');">Вернуться</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Posts List -->	
+		</div>
+        <!-- Javascripts -->
+		<script type="text/javascript">
+		var s = 0;
+		var b = 0;
+		var i = 0;
+		var polyana = "";
+		function check (id) {
+			document.getElementById(id).style.display = 'none';
+			s = s + 1;
+			document.getElementById("schet").innerHTML = "Всего собрано " + s + " из 5 пиражков";
+			if(s == 5)
+			document.getElementById("back").style.display = '';
+		};
+		function perehod (id, id2) {
+			document.getElementById(id).style.display = 'none';
+			document.getElementById(id2).style.display = '';
+		};
+		function zamena (id, adres, block, block2, text) {
+			document.getElementById(id).setAttribute('src', adres);
+			document.getElementById(id).style.display = '';
+			document.getElementById(block).style.display = 'none';
+			document.getElementById(block2).style.display = '';
+			if(i == 0)
+			{
+				document.getElementById("sama_text").innerHTML = "Вот так :3 Но нам же надо где то жить, выберем себе хатку :3";
+				polyana = text + " вместе с ";
+				i = i + 1;
+			}
+			else if(i == 1)
+			{
+				document.getElementById("sama_text").innerHTML = "Ну и конечно нам нужно животное, а то как то без тваринки ну шота да :3 Так что выберем себе какое нибудь животное :3";
+				polyana = polyana + text;
+				i = i + 1;
+			}
+			else if(i == 2)
+			{
+				polyana = polyana + " и " + text + ", необычно, но мне нравится :3 Малышка моя :3 Надеюсь тебе тоже нравится :3 Ладно, вернемся и продолжим ходить по пещерам :3";
+				i = i + 1;
+				document.getElementById("sama_text").innerHTML = polyana;
+				document.getElementById("pescheri_text").innerHTML = "Я закрою третью :3 Она нам уже не нужна :3 Хоть там было вполне интересно :3";
+				document.getElementById("peschera3").innerHTML = "Эта пещера закрыта :3 Может попробуем еще :3";
+				document.getElementById("knopka_v_peschru3").style.display = 'none';
+			}
+		};
+		function propost () {
+			if(b == 0)
+				document.getElementById("padaem").innerHTML = "Паадааеем :3";
+			else if(b == 1)
+				document.getElementById("padaem").innerHTML = "Паааадааааеееем :3";
+			else if(b == 2)
+				document.getElementById("padaem").innerHTML = "Еще падаем :3";
+			else if(b == 3)
+				document.getElementById("padaem").innerHTML = "Надеюсь тебе нравится :3";
+			else if(b == 4)
+				document.getElementById("padaem").innerHTML = "Ууууух большая же она :3";
+			else if(b == 5)
+				document.getElementById("padaem").innerHTML = "Ну у нас еще много времени :3";
+			else if(b == 6)
+				document.getElementById("padaem").innerHTML = "Расскажи мне как у тебя дела, настроение и прочее :3";
+			else if(b == 7)
+				document.getElementById("padaem").innerHTML = "Ну что ж, походу мы тут навсегда, как так";	
+			else if(b == 8)
+				document.getElementById("padaem").innerHTML = "Надо нам что то придумать, у тебя есть какие нибудь идеи?";	
+			else if(b == 9)
+			{
+				document.getElementById("padaem").innerHTML = "Кнопка пропала :D";
+				document.getElementById("knopka1").style.display = 'none';
+				document.getElementById("knopka2").style.display = '';
+			}
+			else if(b == 10)
+			{
+				document.getElementById("padaem").innerHTML = "Вот же она! Молодец, а ты внимательная :3";
+				document.getElementById("knopka2").style.display = 'none';
+				document.getElementById("knopka1").style.display = '';
+			}
+			else if(b == 11)
+			{
+				document.getElementById("padaem").innerHTML = "Оу, с нами падает мышка, лови ее!";
+				document.getElementById("knopka1").style.display = 'none';
+				document.getElementById("miska1").style.display = '';
+			}
+			else if(b == 12)
+			{
+				document.getElementById("padaem").innerHTML = "Она убегает! Надо ее догнать!";
+				document.getElementById("miska1").style.display = 'none';
+				document.getElementById("miska2").style.display = '';
+			}
+			else if(b == 13)
+			{
+				document.getElementById("padaem").innerHTML = "Вот она быстрая! Я за ней не успеваю!";
+				document.getElementById("miska2").style.display = 'none';
+				document.getElementById("miska3").style.display = '';
+			}
+			else if(b == 14)
+			{
+				document.getElementById("padaem").innerHTML = "Мы почти поймали ее! Еще чуть чуть!";
+				document.getElementById("miska3").style.display = 'none';
+				document.getElementById("miska4").style.display = '';
+			}
+			else if(b == 15)
+			{
+				document.getElementById("padaem").innerHTML = "Мышкааа иди сюдааа!";
+				document.getElementById("miska4").style.display = 'none';
+				document.getElementById("miska5").style.display = '';
+			}	
+			else if(b == 16)
+			{
+				document.getElementById("padaem").innerHTML = "Фууух, мы поймали ее! Молодец Вержинка моя :3 Теперь можно упасть";
+				document.getElementById("peschera1").innerHTML = "Я замуровал ее :3 Выберем другую :3";
+				document.getElementById("miska5").style.display = 'none';
+				document.getElementById("knopka3").style.display = '';
+				document.getElementById("pescheri_text").innerHTML = "Ай, больно! О, мы попали обратно к пещерам, прикольно :D Ну ладно, попробуем другую пещеру :3 А я пока замурую вход в первую";
+				document.getElementById("knopka_v_peschru1").style.display = 'none';
+				
+			}				
+			b = b + 1;
+		};
+		function check2 (id, sbm) {
+			if (document.getElementById(id).value == 'любовь' || document.getElementById(id).value == 'ЛЮБОВЬ' || document.getElementById(id).value == 'Любовь') document.getElementById(sbm).style.display = '';
+		};
+		</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.sequence-min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <script src="js/main-menu.js"></script>
+        <script src="js/template.js"></script>
+
+    </body>
+</html>
